@@ -9,8 +9,6 @@ This project focuses on building a Leads Conversion Classification System for X 
 
 - **Programming Language:** Python  
 - **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Statsmodels  
-- **Dataset:** `Data.csv` (attached)  
-- **Dataset Description:** `Data_Dictionary.xlsx` (attached)  
 - **Model Used:** Logistic Regression
 
 ## 🔍 Exploratory Data Analysis (EDA)
@@ -44,7 +42,7 @@ This project focuses on building a Leads Conversion Classification System for X 
 ## 🛠 How to Run
 **Clone the repository:**
    ```bash
-   git clone <https://github.com/ayushdas97/lead_scoring_case_study.git>
+   git clone <https://github.com/DevaPrabha15/Lead_Scoring.git>
 ```
 ## 📈 Future Improvements
 
@@ -67,4 +65,4 @@ This project focuses on building a Leads Conversion Classification System for X 
 
 ## 📢 Credits & References
 
-- **Project by:** Ayush, Gayathri, Anjali
+- **Project by:** Deva Prabha
