@@ -1,9 +1,9 @@
 # Lead_Scoring_Case_Study
 </br>
 
-## 📌 Project Description
+## Project Description
 
-This project focuses on building a Leads Conversion Classification System for X Education, an online course provider. The goal is to develop a predictive model that determines whether a lead will convert based on various factors collected during the client inquiry phase. With a current conversion rate of 30%, the company aims to improve efficiency by prioritizing high-potential leads, targeting an 80%+ conversion rate. The dataset consists of 9,000+ records from past leads, with key features like Lead Source, Total Time Spent on Website, and Last Activity. This project involves data preprocessing, feature engineering, model development, evaluation, and business insights, providing actionable recommendations to enhance lead conversion.
+The goal of this project is to develop a Leads Conversion Classification System for the online course provider X Education. The objective is to create a predictive model that uses a variety of data gathered throughout the client inquiry stage to assess a lead's likelihood of converting. Targeting an 80%+ conversion rate, the organization wants to increase efficiency by giving high-potential leads priority. Currently, the conversion rate is 30%. Key information like Lead Source, Total Time Spent on Website, and Last Activity are among the 9,000+ records from previous leads that make up the dataset. Data preparation, feature engineering, model construction, assessment, and business insights are all part of this project, which offers practical suggestions to improve lead conversion.
 
 ## 🔧 Tech Stack
 
@@ -23,21 +23,20 @@ This project focuses on building a Leads Conversion Classification System for X 
 - **Model Used:** Logistic Regression
 - **Evaluation Metrics:**
   - Accuracy Score
-  - Precision, Recall, F1-score
-  - Confusion Matrix
-  - ROC-AUC Curve
+  - Precision, Recall
+  - ROC Curve
 
 ## ⚡ Key Findings & Insights
 
 ### Factors that increase the probability of lead conversion:
-- **Tags_Closed by Horizzon:** Leads with this tag have the highest chance of converting.
-- **Tags_Lost to EINS:** Leads marked as lost to EINS have a very high probability of conversion.
-- **Tags_Will revert after reading the email:** Leads with this status tend to have a good chance of converting.
-- **Lead_Source_Welingak Website:** Leads sourced from this website show strong conversion potential.
+- **Tags_Closed by Horizzon:** This tag increases the likelihood that a lead will convert.
+- **Tags_Lost to EINS:** The likelihood of conversion is relatively high for leads that are indicated as lost to EINS.
+- **Tags_Will revert after reading the email:** This type of lead typically has a high conversion rate.
+- **Lead_Source_Welingak Website:** This website generates leads with a high conversion rate.
 
 ### Factors that indicate a lead will not convert:
-- **Tags_Switched off:** Leads with this status are highly unlikely to convert.
-- **Tags_Ringing:** Leads that do not pick up calls are mostly non-convertible.
+- **Lead Quality_Worst:** Leads with quality metioned as worst
+- **Lead Quality_Not Sure:** Leads with quality mentioned as Not Sure
 
 ## 🛠 How to Run
 **Clone the repository:**
@@ -47,20 +46,17 @@ This project focuses on building a Leads Conversion Classification System for X 
 ## 📈 Future Improvements
 
 - Implement advanced models like Random Forest, XGBoost for better accuracy.
-- Tune hyperparameters using GridSearchCV.
 - Incorporate real-time lead scoring based on live data.
 
 ## 📂 Project Structure  
 
 | File Name                               | Description                                      |
 |-----------------------------------------|------------------------------------------------|
-| `data.csv`                              | Previous leads dataset               |
-| `data_dictionary.xlsx`                  | Column descriptions and data definitions       |
-| `Lead Scoring Case Study Summary.pdf`   | Complete procedure and conclusions of the study |
-| `Lead Scoring Case Study.ipynb`         | Complete study processes in Jupyter with Python |
-| `Lead Scoring Case Study Presentation.pdf` | Case study with visualizations and business insights |
+| `LEAD SCORING CASE STUDY- SUMMARY.pdf`  | Approach and Conclusion                        |
+| `Lead Scoring Case Study.ipynb`         | Coding and findings in Jupyter with Python |
+| `LEAD SCORE CASE STUDY.pdf`             | Case study with visualizations and business insights |
 | `README.md`                             | Project documentation                          |
-| `Assignment Subjective Questions.pdf`       | Solved Questions                               |
+| `Assignment Subjective Questions.pdf`   | Solved Questions                               |
 
 
 ## 📢 Credits & References
